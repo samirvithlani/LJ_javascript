@@ -1,0 +1,129 @@
+javascript
+javascript script is scripting language
+
+
+server side language | client side language
+amazone --> login --->
+
+
+
+2 type programming |script language
+
+
+1)statically typed language
+    : type of variable is defined at compile time
+    : int c, float f
+2)dynamically typed language
+    : type of variable is defined at run time
+    : var x=;
+
+    python , javascript
+
+browser only understand web pages:
+
+html :
+
+
+ways to write javascript:
+1)inline
+2)internal
+3)external : file : .js
+
+int
+float
+char
+double
+long
+boolean
+
+
+
+do declare variable in javascript:
+we have 3 ways to declare variable in javascript:
+1)var
+2)let
+3)const
+
+
+
+compilers :
+
+java script compiler name is : babel
+
+browser will jhave js engine to run js code
+
+java script was developed by : brendan eich in netscape navigator
+
+firefox : spider monkey
+google : v8
+safrari : nitro
+microsoft : chakra
+
+
+
+diff bw 
+var
+let 
+const
+
+
+var is having function scope | global scope
+let is having block scope
+const is having block scope
+
+{
+    //block...
+}
+
+if(){
+    //block...
+}
+
+for(){
+
+}
+
+
+
+
+.js : global scope
+
+var keyword is used to declare variable in javascript
+let keyword is used to declare variable in javascript : {}
+
+
+uni : canteeen, var
+div A :sem :- let 
+
+
+ooperators:
+ooperators are the special symbols which is used to perfoprm some operation on operands
+
+3 types of operators:
+unary operator : it will work on single operand
+binary operator : it will work on 2 operands
+ternary operator : it will work on 3 operands
+
+1)arithmatic operator + , - , * , / , % , ++ , --, **
+2)asignment operator = , += , -= , *= , /= , %=, **=
+3)logical operator && , || , !
+4)comparison operator == , === , != , !== , > , < , >= , <=
+
+ternary operator : ? :
+
+
+decision making statements:
+if else
+switch case
+loops
+
+
+
+
+
+
+
+
+
+
+
