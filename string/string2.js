@@ -21,7 +21,7 @@ var index4= -1;
 
 for(let i=0;i<data1.length;i++){
 
-    if(data1[i]=="i"){
+    if(data1[i]=="o"){
         //console.log("index...",i)
         index4 = i;
         break;
