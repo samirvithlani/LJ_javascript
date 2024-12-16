@@ -159,3 +159,27 @@ array index starts from 0
 iterable: loop
 subscriptable: :index
 
+
+JSON: java script object notation...
+
+student:
+rno
+sname
+semail
+....
+
+student object :
+
+key value
+
+
+
+
+
+
+
+
+
+
+
+
