@@ -171,15 +171,17 @@ semail
 student object :
 
 key value
+Functions:
+
+Type of functions:
+User define function
+pre define functions.. 
 
 
+function keyword..
 
+function funName(){
+    
+}
 
-
-
-
-
-
-
-
-
+arrow function
