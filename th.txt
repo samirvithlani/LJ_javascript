@@ -181,7 +181,16 @@ pre define functions..
 function keyword..
 
 function funName(){
-    
+
 }
 
 arrow function
+
+
+""india is my country", 'i'
+function (data,c)
+count return
+
+
+scanf :
+promt
