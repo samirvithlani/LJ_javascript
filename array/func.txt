@@ -3,3 +3,6 @@ pop
 shift
 unshift
 splice
+indexOf
+lastIndexof
+includes : boolean
