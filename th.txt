@@ -194,3 +194,59 @@ count return
 
 scanf :
 promt
+
+
+
+find max from 3 numbers
+
+function(a,b,c)
+return:
+
+
+age =18
+
+if(age>18){
+
+
+}
+else{
+
+
+}
+
+age>18?true:falase
+
+
+age>=18?"young":
+age>=60?"sr":
+"passed"
+
+function (json) 
+
+var data = {
+    sub1:100,
+    sub2:200,
+    sub3:200
+
+
+}
+
+grade if per > 80 "A" pers >70 "B" pers >60 "C" :fail
+
+
+json ={
+
+    name:"",
+    city:"",
+    state,""
+}
+
+
+function param --->
+
+return 
+
+
+27/01/2025
+
+push pop shift unshift manual approch
