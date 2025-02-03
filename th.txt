@@ -250,3 +250,12 @@ return
 27/01/2025
 
 push pop shift unshift manual approch
+
+28/01/2025
+
+filter :["ram sharam","kunal","bob1","charlie2"]
+
+we have user array 
+return data which has space
+return that data which has any number
+
