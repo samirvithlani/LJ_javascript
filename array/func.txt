@@ -6,3 +6,15 @@ splice
 indexOf
 lastIndexof
 includes : boolean
+every
+some
+find
+map
+filter
+sort
+reverse
+forEach
+
+map : return array with same lentgh
+filter: return array with same lentgth or less
+reduce: will return only element
