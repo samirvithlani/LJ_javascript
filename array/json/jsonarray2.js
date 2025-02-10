@@ -12,3 +12,20 @@ var data = [
 
 //[{country:"india",pm:"modi"}]
 //[{country:"india",capital"delhi"},{}]
+
+var mates = [
+    {
+        rno:101,
+        name:"ram",
+        roomNo:101,
+        sem:5,
+        city:"ahmedbad",
+        collage:"abcd",
+    }
+]
+
+//find all mates from roomNo 101,
+//find all mates from same city:
+//find all mates with same sem
+
+//return [{name:"",city:"ahmedbad"}] for only ahmedbnad students
