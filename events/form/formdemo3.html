@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./formdemo3.js"></script>
+</head>
+<body>
+    <form onsubmit="submitHandler(event)">
+        <div>
+            <label>NAME*</label>
+            <input type="text" id="name" placeholder="enter name">
+            <span id="nameError"></span>
+        </div>
+        <div>
+            <label>AGE</label>
+            <input type="text" id="age" placeholder="enter age">
+            <span id="ageError"></span>
+        </div>
+        <div>
+            <label>GENDER</label>
+            <br>
+            MALE : <input type="radio" value="male" name="gender">
+            FEMALE : <input type="radio" value="female" name="gender">
+            <span id="genderError"></span>
+        </div>
+        <div>
+            <input type="submit">
+        </div>
+    </form>
+</body>
+</html>
