@@ -4,6 +4,7 @@ const submitHandler = (event) => {
   const nameError = document.getElementById("nameError");
   const ageError = document.getElementById("ageError");
   const genderError = document.getElementById("genderError");
+  const hobbyError = document.getElementById("hobbyError")
 
   const name = document.getElementById("name"); //
   const age = document.getElementById("age");
@@ -40,4 +41,20 @@ const submitHandler = (event) => {
   } else {
     genderError.innerHTML = "";
   }
+
+  var hobbyCount=0;
+  const hobbies = document.getElementsByName("hobbies")
+  for(let i=0;i<hobbies.length;i++){
+    if(hobbies[i].checked){
+        hobbyCount++;
+    }
+  }
+  if(hobbyCount<2){
+    hobbyError.innerHTML = "min 2 hobbies are required*"
+  }
+  else{
+    hobbyError.innerHTML = ""
+  }
+
+
 };
