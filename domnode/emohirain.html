@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emoji Rain 🌧️😂</title>
+    <style>
+        body { text-align: center; font-family: Arial, sans-serif; overflow: hidden; }
+        .emoji { position: absolute; font-size: 2rem; cursor: pointer; }
+        button { padding: 10px 20px; font-size: 16px; cursor: pointer; margin-top: 20px; }
+    </style>
+</head>
+<body>
+
+    <h1>🌧️ Emoji Rain</h1>
+    <button onclick="startEmojiRain()">Start Rain</button>
+
+    <script>
+        const emojis = ["😂", "🥳", "😎", "🔥", "🤩", "😜", "🎉", "💖"];
+
+        function createEmoji() {
+            const emoji = document.createElement("div");
+            emoji.className = "emoji";
+            emoji.innerText = emojis[Math.floor(Math.random() * emojis.length)];
+            document.body.appendChild(emoji);
+
+            let x = Math.random() * window.innerWidth;
+            let speed = Math.random() * 5 + 2;
+            emoji.style.left = `${x}px`;
+
+            let fall = setInterval(() => {
+                let top = parseInt(emoji.style.top || 0);
+                console.log(top)
+                if (top > window.innerHeight) {
+                    emoji.remove();
+                    clearInterval(fall);
+                } else {
+                    console.log("here")
+                    emoji.style.top = `${top + speed}px`;
+                }
+            }, 50);
+
+            emoji.onclick = () => { emoji.remove(); clearInterval(fall); };
+        }
+
+        function startEmojiRain() {
+            setInterval(createEmoji, 300);
+            //createEmoji()
+        }
+    </script>
+
+</body>
+</html>
