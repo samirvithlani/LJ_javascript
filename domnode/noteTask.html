@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .sticky-note {
+    width: 200px;
+    height: 250px;
+    background-color: #ffeb3b;
+    padding: 20px;
+    margin: 20px;
+    font-family: 'Comic Sans MS', cursive;
+    font-size: 18px;
+    color: #333;
+    line-height: 1.4;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+    transform: rotate(-5deg);
+    position: relative;
+}
+
+.sticky-note::before {
+    content: '';
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background: radial-gradient(circle, rgba(0,0,0,0.15) 30%, transparent 31%);
+    top: -15px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 50%;
+    z-index: -1;
+}
+
+.sticky-note:hover {
+    transform: rotate(-3deg) scale(1.02);
+}
+
+    </style>
+    
+</head>
+<body>
+    
+    <!-- <div class="sticky-note">
+        Remember to finish the project!
+        <p>TITLE : take backup</p>
+        <p>DATE: 12/02/22</p>
+        <p>status : done</p>
+        <p>description: get backup of phone</p>
+    </div> -->
+    <form onsubmit="handleSubmit(event)">
+        <div>
+            <label>TITLE</label>
+            <input type="text" id="title">
+        </div>
+        <div>
+            <label>DESCRIPTION</label>
+            <input type="text" id="desc">
+        </div>
+        <div>
+            <input type="submit">
+        </div>
+    </form>
+    <div id="root"></div>
+    <script src="./notetask.js"></script>   
+</body>
+</html>
+

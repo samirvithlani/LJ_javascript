@@ -269,3 +269,15 @@ class
 
 
 dice
+
+
+skip 
+
+promise
+async await
+try catch ex
+ajax
+fetch
+class object
+Object calass
+JSON CLASS
